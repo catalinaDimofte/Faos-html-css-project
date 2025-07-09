@@ -1,0 +1,60 @@
+body {
+    font-family: Roboto, Arial;
+    background-color: white;
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.profile-card {
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    width: 120px;
+    border-radius: 60px;
+}
+
+.insta-link {
+    text-decoration: none;
+    color: blue;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.insta-link:hover {
+    background-color: rgb(250, 149, 149);
+    opacity: 1;
+}
+
+.galary {
+    display: flex;
+    padding: 20px, 1fr;
+    justify-content: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+.galary img {
+    display: inline-block;
+    padding: 15px;
+    width: 150px;
+    height: 180px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    cursor: pointer;    
+}
+
+.galary p {
+    font-size: 15px;
+    font-weight: 500;
+    align-content: center;    
+}
